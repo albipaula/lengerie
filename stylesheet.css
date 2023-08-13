@@ -1,0 +1,299 @@
+
+
+body { 
+  background-color: #ffffff; 
+  font-family: 'Amatic SC', cursive;
+  box-sizing: border-box;
+}
+
+
+.parallax1 { 
+  background-image: url(47701.jpg);
+  min-height: 90vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.parallax { 
+  background-color: white;
+  min-height: 30vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.parallax2 {
+
+  background-image: url(sexy-beautiful-blonde-woman-lying-bed.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+.parallax3 {
+
+  background-image: url(good-looking-tanned-sporty-fitness-woman-leaning-concrete-wall-sitting-quay-floor-drinking-water.jpg);
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+.contenedorCarrito { background:rose; height: 500px;  }
+
+.logo { width: 400px;}
+
+header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+background: rgb(255, 255, 255);
+width: 100%;
+position: fixed;
+    max-height: 150px;
+  z-index:99 ;
+  margin-top: -10px;
+  }
+
+.menu-op {
+  display: flex;
+  align-items: center;
+  gap: 150px; 
+  list-style: none;
+}
+.menu-op li:hover{  
+  background-color: red;
+  width: 80px; 
+  border-radius: 20px;
+  text-align: center; 
+  transition: 0.5s;}
+
+.opcionCarrito { display: flex;}
+
+.contenedorVerCarrito { 
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a:active { color: black;}
+
+a:visited { color: black;}
+
+h1{ 
+  text-align:center; 
+  color: rgb(217, 16, 16);
+  font-size: 48px;
+}
+
+
+
+h2{ color: rgb(202, 29, 29); 
+  font-size: 120px;text-align: center; 
+  margin-top: -30px;/*  2da opcion */
+  }
+h3 { color: rgb(213, 47, 47); 
+  font-size: 38px;
+  text-align: center;}
+
+  h5 { color: red;
+  font-size: 40px;}
+
+  p { font-size: 20px;}
+input { width: 30px;}
+#cartBasicos,   #cartSexys , #cartDeportivos  { 
+    display:flex; 
+    flex-wrap: wrap;
+    gap:50px;
+    justify-content: center;
+    margin: 30px;
+    padding: 50px;
+    }
+  
+    
+img { width:60% ;border-radius: 20px; }
+    
+ menu  { display: flex; list-style: none; gap: 150px;
+
+
+}  
+
+.item { 
+    display: flex;
+    max-width: 200px;
+    height: 300px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 28px -28px 44px 4px rgba(40, 39, 39, 0.435);
+    padding: 20px;
+    color: black;
+    position: relative;
+    z-index: 20;
+    margin: 20px;
+  
+   
+  
+    }
+
+
+    .caja-superpuesta {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .item:hover .caja-superpuesta {
+      display: flex;
+      flex-direction: column;
+    }
+    
+/* .contenedorLista {   
+  background-color: rgba(155, 39, 39, 0.368);
+   display: flex; 
+   flex-direction: column;
+   flex-wrap: wrap;
+    } */
+
+li { font-size: 26px;
+   line-height: 60px;
+   display: flex;
+   flex-wrap: wrap;
+  }
+    
+.item:hover { width: 180%;
+    transition: 0.6s;
+    z-index: 900;
+    cursor: pointer;}
+
+button { 
+    max-width: 120px;
+    align-self:center;
+    padding:10px; 
+    background: rgb(14, 14, 14); border:none;
+    border-radius:20px; 
+    color:rgb(248, 248, 248);
+    cursor:pointer;
+    font-family: 'Amatic SC', cursive;
+    margin: 30px;
+    font-size: 26px;
+    }
+    
+.icon-cart { 
+    background-color: #ffffff77;
+    &:hover { 
+      background: black;}
+    }
+    
+ button:hover {  
+    background: #d22a2a;
+    transition:0.10s;}
+    
+#cart { 
+  border:1px dashed black; 
+  padding:20px; 
+  z-index: 101;}
+
+#contenedorCarrito { display: flex; flex-wrap: wrap; justify-content: center;
+  }
+/* Estilos para el modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #fefefe;
+  margin: 150px 45%;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50vw;
+  height: auto;
+
+
+ 
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+#imgCarrito { width:70px ; height: 70px;}
+ /* effects h2    */  
+.tracking-in-contract-bck {
+	-webkit-animation: tracking-in-contract-bck 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s infinite both;
+	        animation: tracking-in-contract-bck 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s infinite both;
+}
+
+@-webkit-keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+            transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+            transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+
