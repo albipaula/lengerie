@@ -6,9 +6,16 @@ body {
   box-sizing: border-box;
 }
 
+.hero { min-height: 90vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+video { filter: grayscale(100%);}
+.marca { margin-top: -400px;}
 
 .parallax1 { 
-  background-image: url(47701.jpg);
+  background-image: url(36ce3e9f-61a5-4bd0-be70-ab4e29aeb154.jpg);
   min-height: 90vh;
   background-attachment: fixed;
   background-position: center;
@@ -37,7 +44,7 @@ body {
 } 
 .parallax3 {
 
-  background-image: url(good-looking-tanned-sporty-fitness-woman-leaning-concrete-wall-sitting-quay-floor-drinking-water.jpg);
+  background-image: url(sport.jpg);
   min-height: 600px;
   background-attachment: fixed;
   background-position: center;
@@ -138,6 +145,7 @@ img { width:60% ;border-radius: 20px; }
     position: relative;
     z-index: 20;
     margin: 20px;
+   
   
    
   

@@ -36,25 +36,25 @@ class Producto {
   }
 // PRODUCTOS DE LA TIENDA 
 
-  const item1 = new Producto ( 234, "brass", 12,"https://img.freepik.com/free-photo/pink-black-bras-bed_53876-146791.jpg?w=740&t=st=1690900680~exp=1690901280~hmac=108c7eb8fb73da8c793c7fddf1d42636fbc27a4a5609061c7c7ba13ab8710a1e");
-  const item2 = new Producto ( 14, "undie", 5,"https://img.freepik.com/free-photo/pink-black-bras-bed_53876-146791.jpg?w=740&t=st=1690900680~exp=1690901280~hmac=108c7eb8fb73da8c793c7fddf1d42636fbc27a4a5609061c7c7ba13ab8710a1e");
-  const item3 = new Producto ( 123234, "pijama", 8,"https://img.freepik.com/free-photo/pink-black-bras-bed_53876-146791.jpg?w=740&t=st=1690900680~exp=1690901280~hmac=108c7eb8fb73da8c793c7fddf1d42636fbc27a4a5609061c7c7ba13ab8710a1e"); 
-  const item4 = new Producto ( 1616, "boxer", 10,"https://img.freepik.com/free-photo/pink-black-bras-bed_53876-146791.jpg?w=740&t=st=1690900680~exp=1690901280~hmac=108c7eb8fb73da8c793c7fddf1d42636fbc27a4a5609061c7c7ba13ab8710a1e"); 
+  const item1 = new Producto ( 234, "brass", 1200,"https://img.freepik.com/free-photo/pink-black-bras-bed_53876-146791.jpg?w=740&t=st=1690900680~exp=1690901280~hmac=108c7eb8fb73da8c793c7fddf1d42636fbc27a4a5609061c7c7ba13ab8710a1e");
+  const item2 = new Producto ( 14, "undie", 5000,"https://img.freepik.com/free-photo/pink-black-bras-bed_53876-146791.jpg?w=740&t=st=1690900680~exp=1690901280~hmac=108c7eb8fb73da8c793c7fddf1d42636fbc27a4a5609061c7c7ba13ab8710a1e");
+  const item3 = new Producto ( 123234, "pijama", 800,"https://img.freepik.com/free-photo/pink-black-bras-bed_53876-146791.jpg?w=740&t=st=1690900680~exp=1690901280~hmac=108c7eb8fb73da8c793c7fddf1d42636fbc27a4a5609061c7c7ba13ab8710a1e"); 
+  const item4 = new Producto ( 1616, "boxer", 1045,"https://img.freepik.com/free-photo/pink-black-bras-bed_53876-146791.jpg?w=740&t=st=1690900680~exp=1690901280~hmac=108c7eb8fb73da8c793c7fddf1d42636fbc27a4a5609061c7c7ba13ab8710a1e"); 
 
  arrayBasicos = [item1,item2,item3,item4];
 
- const item5 = new Producto ( 9858, "brass", 12,"https://img.freepik.com/free-photo/pink-black-bras-bed_53876-146791.jpg?w=740&t=st=1690900680~exp=1690901280~hmac=108c7eb8fb73da8c793c7fddf1d42636fbc27a4a5609061c7c7ba13ab8710a1e");
- const item6 = new Producto ( 9714, "undie", 5,"https://i.pinimg.com/564x/64/0d/58/640d588ea36280b8f285c77ccbd8f6ec.jpg");
- const item7 = new Producto ( 89647, "pijama", 8,"https://i.pinimg.com/564x/88/fb/3d/88fb3d6c6dae2cc5420fdfeebfb2cf9a.jpg"); 
- const item8 = new Producto ( 3442, "boxer", 10,"https://img.freepik.com/free-photo/pink-black-bras-bed_53876-146791.jpg?w=740&t=st=1690900680~exp=1690901280~hmac=108c7eb8fb73da8c793c7fddf1d42636fbc27a4a5609061c7c7ba13ab8710a1e"); 
+ const item5 = new Producto ( 9858, "brass", 1247,"https://img.freepik.com/free-photo/pink-black-bras-bed_53876-146791.jpg?w=740&t=st=1690900680~exp=1690901280~hmac=108c7eb8fb73da8c793c7fddf1d42636fbc27a4a5609061c7c7ba13ab8710a1e");
+ const item6 = new Producto ( 9714, "undie", 5685,"https://i.pinimg.com/564x/64/0d/58/640d588ea36280b8f285c77ccbd8f6ec.jpg");
+ const item7 = new Producto ( 89647, "pijama", 8875,"https://i.pinimg.com/564x/88/fb/3d/88fb3d6c6dae2cc5420fdfeebfb2cf9a.jpg"); 
+ const item8 = new Producto ( 3442, "boxer", 1057,"https://img.freepik.com/free-photo/pink-black-bras-bed_53876-146791.jpg?w=740&t=st=1690900680~exp=1690901280~hmac=108c7eb8fb73da8c793c7fddf1d42636fbc27a4a5609061c7c7ba13ab8710a1e"); 
 
  arraySexys = [item5,item6,item7,item8];
 
 
- const item9 = new Producto ( 9858, "brass", 12,"https://img.freepik.com/free-photo/pink-black-bras-bed_53876-146791.jpg?w=740&t=st=1690900680~exp=1690901280~hmac=108c7eb8fb73da8c793c7fddf1d42636fbc27a4a5609061c7c7ba13ab8710a1e");
- const item10 = new Producto ( 9714, "undie", 5,"https://i.pinimg.com/564x/64/0d/58/640d588ea36280b8f285c77ccbd8f6ec.jpg");
- const item11 = new Producto ( 89647, "pijama", 8,"https://i.pinimg.com/564x/88/fb/3d/88fb3d6c6dae2cc5420fdfeebfb2cf9a.jpg"); 
- const item12 = new Producto ( 3442, "boxer", 10,"https://img.freepik.com/free-photo/pink-black-bras-bed_53876-146791.jpg?w=740&t=st=1690900680~exp=1690901280~hmac=108c7eb8fb73da8c793c7fddf1d42636fbc27a4a5609061c7c7ba13ab8710a1e"); 
+ const item9 = new Producto ( 985, "brass", 12345,"https://i.pinimg.com/564x/19/0e/96/190e96533cebefaab59de89277077f83.jpg");
+ const item10 = new Producto ( 914, "undie", 5567,"https://i.pinimg.com/564x/3e/db/88/3edb88dd1cc755715df3703560246a42.jpg");
+ const item11 = new Producto ( 847, "pijama", 8457,"https://i.pinimg.com/736x/f0/1a/da/f01adad8c9e0d597f621b8d8fd68b2a8.jpg"); 
+ const item12 = new Producto ( 342, "boxer", 1000,"https://i.pinimg.com/564x/3a/6c/1a/3a6c1ae05ab664ed5eb6912cc3d38a25.jpg"); 
 
  arrayDeportivos = [item9,item10,item11,item12];
   // CARRITO array 
@@ -64,7 +64,7 @@ class Producto {
 
 /********************  SE AGREGAN LOS PRODUCTOS AL DOM (TIENDA) ******************/
 const contenedorProductos = document.getElementById("cartBasicos");
-
+//CATEGORIA BASICOS
 const mostrarProductosBasicos = ()=> {
  arrayBasicos.forEach ( (producto) => {
     const div = document.createElement ( "div");
@@ -72,8 +72,7 @@ const mostrarProductosBasicos = ()=> {
     div.style.backgroundImage = `url("${producto.url}")`;
     div.style.backgroundSize = "cover"; // Ajusta el tamaño de la imagen para cubrir completamente el contenedor
     div.style.backgroundPosition = "center";
-    div.style.backgroundColor = "rgba(0, 0, 0, 0.7)"; // Color de fondo con opacidad
-    div.style.opacity = "0.9";
+
     div.innerHTML= `
                     
                     <ul class= "caja-superpuesta container" >  
@@ -81,11 +80,8 @@ const mostrarProductosBasicos = ()=> {
                     <li> articulo: ${ producto.art}  </li> 
                     <li> Precio: $ ${ producto.price}  </li>
                     <div><button id = "btn ${producto.art}"> Comprar </button>  </div>
-                    
                     </ul>
-                    
-                 `
-    
+                    `
     contenedorProductos.appendChild (div);
 
     const comprar = document.getElementById (`btn ${producto.art}`);
@@ -93,8 +89,10 @@ const mostrarProductosBasicos = ()=> {
           add (producto.art); 
         
     }) 
-  } )};
+  } 
+)};
 
+//CATEGORIAS SEXYS
 const contenedorSexys = document.getElementById("cartSexys");
 
 const mostrarProductosSexys = ()=> {
@@ -104,8 +102,7 @@ arraySexys.forEach ( (producto) => {
     div.style.backgroundImage = `url("${producto.url}")`;
     div.style.backgroundSize = "cover"; // Ajusta el tamaño de la imagen para cubrir completamente el contenedor
     div.style.backgroundPosition = "center";
-    div.style.backgroundColor = "rgba(0, 0, 0, 0.7)"; // Color de fondo con opacidad
-    div.style.opacity = "0.9";
+   
     div.innerHTML= `
                    
                     <ul  class= "caja-superpuesta container" > 
@@ -125,37 +122,33 @@ arraySexys.forEach ( (producto) => {
     }) 
   } )};
 
+ //CATEGORIAS DEPORTIVOS
+
   const contenedorDeportivos = document.getElementById("cartDeportivos");
 
   const mostrarProductosDeportivos = ()=> {
-  arraySexys.forEach ( (producto) => {
+  arrayDeportivos.forEach ( (producto) => {
       const div = document.createElement ( "div");
       div.className = "item container"; 
       div.style.backgroundImage = `url("${producto.url}")`;
       div.style.backgroundSize = "cover"; // Ajusta el tamaño de la imagen para cubrir completamente el contenedor
       div.style.backgroundPosition = "center";
-      div.style.backgroundColor = "rgba(0, 0, 0, 0.7)"; // Color de fondo con opacidad
-      div.style.opacity = "0.9";
+      
       div.innerHTML= `
-                     
                       <ul  class= "caja-superpuesta container" > 
                       <li> ${ producto.name}  </li> 
                       <li> articulo: ${ producto.art}  </li> 
                       <li> Precio: $ ${ producto.price}  </li>
                       <button id = "btn ${producto.art}"> Comprar </button> 
-                      </ul> 
-                   `
-      ;
+                      </ul> `;
       contenedorDeportivos.appendChild (div);
-  
       const comprar = document.getElementById (`btn ${producto.art}`);
           comprar.addEventListener ("click", ()=> {          
             add (producto.art); 
           
       }) 
-    } )};
-
-
+    } 
+)};
 mostrarProductosBasicos();
 mostrarProductosSexys();
 mostrarProductosDeportivos();
@@ -164,38 +157,39 @@ mostrarProductosDeportivos();
 /******************** FUNCION PARA AGREGAR PRODUCTOS AL CARRITO **************************************/
 
 const add = (art) => {
+  // Buscar si el producto ya está en el carrito
   const selected = arrayCarrito.find((producto) => producto.art === art);
 
   if (selected) {
+    // Si ya existe en el carrito, incrementar la cantidad
     selected.quantity++;
   } else {
-    const newProduct = arrayBasicos.find((producto) => producto.art === art);
-    if (!newProduct) {
-      const newSexy = arraySexys.find((producto) => producto.art === art);
-      if (newSexy) {
-        arrayCarrito.push({ ...newSexy, quantity: 1 });
-      }
-    } else {
-      arrayCarrito.push({ ...newProduct, quantity: 1 });
-    }
+    // Buscar el producto en diferentes categorías
+    const newBasico = arrayBasicos.find((producto) => producto.art === art);
+    const newSexy = arraySexys.find((producto) => producto.art === art);
+    const newDeportivo = arrayDeportivos.find((producto) => producto.art === art);
 
-    compraTotal();
+    // Agregar el producto encontrado al carrito con cantidad 1
+    if (newBasico) {
+      arrayCarrito.push({ ...newBasico, quantity: 1 });
+    } else if (newSexy) {
+      arrayCarrito.push({ ...newSexy, quantity: 1 });
+    } else if (newDeportivo) {
+      arrayCarrito.push({ ...newDeportivo, quantity: 1 });
+    }
+  
   }
+
+  // Actualizar la visualización del carrito
+ /* ver () hacer aumento de numero en el logo cart  */
+
+
 
   console.log(arrayCarrito);
 };
 
-/******************** FUNCION PARA ELIMINAR PRODUCTOS DEL CARRITO **************************************/
-const clear = (art) => {
-  const selected = arrayCarrito.find((producto) => producto.art === art);
-  const indice = arrayCarrito.indexOf(selected); 
 
-  if (selected) {
-    if (selected.quantity >= 1) {
-      selected.quantity--;
-    } if(selected.quantity < 1) {arrayCarrito.splice (indice, 1);} else { alert("eliminaste el producto") }
-  ver ();
-}}
+
 
 /********************  SE MUESTRA ITEMS COMPRADOS EN EL MODAL ******************/
 
@@ -222,23 +216,40 @@ const ver = () => {
 
         clear(producto.art);
         compraTotal();
-        ver()
-       
+        ver();
       }  )
 
       const total= document.getElementById ("verTotal")
 total.addEventListener ("click", () => {
 
-compraTotal ();
+      compraTotal ();
+   
+      }
+    ) ;
+  }
+);
+/********************  eliminar productos del  carrito******************/
+const clear = (art) => {
+  const selected = arrayCarrito.find((producto) => producto.art === art);
 
-}
-) ;
-     
-
-});
-
-
-
+  if (selected) {
+    if (selected.quantity > 1) {
+      selected.quantity--;
+    } else {
+      // Elimina el producto del carrito solo si la cantidad es 1 o menos
+      const index = arrayCarrito.indexOf(selected);
+      if (index > -1) {
+        arrayCarrito.splice(index, 1);
+      } else {
+        console.error("Producto no encontrado en el carrito");
+      }
+    }
+    compraTotal(); // Actualizar el precio total
+    ver();
+  } else {
+    console.error("Producto no encontrado en el carrito");
+  }
+};
   // Mostrar el modal al hacer clic en el botón
   const modal = document.getElementById("modalCarrito");
   modal.style.display = "block";
@@ -267,30 +278,16 @@ const btnVerCarrito = document.getElementById("btnVerCarrito");
 btnVerCarrito.addEventListener ("click", () => ver());
 
 
-// Mostrat total del carrito 
-
-
-/* const total= document.getElementById ("verTotal")
-total.addEventListener ("click", () => {
-
-  compraTotal ();
-
-}
-) ; */
 // funcion para sumar productos del carrito
-const total = document.getElementById("total");
- const compraTotal = () => {
-let totalCompra = 0 ;
-  arrayCarrito.forEach (producto => {
-    totalCompra+= producto.price * producto.quantity 
+const compraTotal = () => {
+  let totalCompra = 0;
 
-total.innerHTML = ` total:$ ${totalCompra}`;
-  })
+  arrayCarrito.forEach((producto) => {
+    totalCompra += producto.price * producto.quantity;
+  });
 
+  total.innerHTML = `Total: $${totalCompra}`;
+};
 
-
-
-
-}
 
 
