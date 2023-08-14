@@ -180,6 +180,10 @@ const add = (art) => {
   
   }
 
+    // Increment the cart item count
+    cartItemCount++;
+    // Update the cart counter on the page
+    updateCartCounter();
   // Actualizar la visualización del carrito
  /* ver () hacer aumento de numero en el logo cart  */
 
@@ -207,7 +211,7 @@ const ver = () => {
         <p> Precio: $${producto.price} </p>
         
         <label for="valor">Cantidad</label>
-        <input type="number" name="valor" id="cantidad-${producto.id}" value="${producto.quantity}"> 
+        <input type="number" name="valor" class = "input-modal" id="cantidad-${producto.id}" value="${producto.quantity}"> 
         <button id = "eliminar${producto.art}"> eliminar </button> 
       </ul>` ;
 
@@ -217,6 +221,7 @@ const ver = () => {
         clear(producto.art);
         compraTotal();
         ver();
+
       }  )
 
       const total= document.getElementById ("verTotal")
@@ -272,6 +277,19 @@ window.addEventListener("click", (event) => {
     closeModal();
   }
 });
+
+
+//counter cart 
+
+const cartCounter = document.getElementById("cart-counter");
+
+// Initialize the cart item count
+let cartItemCount = 0;
+
+// Function to update the cart counter
+function updateCartCounter() {
+  cartCounter.textContent = cartItemCount;
+}
 
 // Asociar la función ver al botón para mostrar el carrito
 const btnVerCarrito = document.getElementById("btnVerCarrito");
