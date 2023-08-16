@@ -2,13 +2,15 @@ a { text-decoration: none;}
 @media  screen and (max-width: 600px) {
 
   .menu-op { display:none}
-  
- .parallax , .parallax1, .parallax2, .parallax3 {
+  .parallax1 { background-image: none;}
+ .parallax1, .parallax2, .parallax3 {
+
     background-attachment: scroll; 
     display: flex; 
     flex-direction: column; 
     justify-content: space-between;
     background-size: contain;
+
    }
 
 video { margin-top: 150px;}
@@ -268,7 +270,7 @@ button {
 .modal {
   display: none;
   position: fixed;
-  z-index: 1;
+  z-index: 99;
   left: 0;
   top: 0;
   width: 100%;
