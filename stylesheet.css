@@ -11,16 +11,20 @@ a { text-decoration: none;}
     background-size: contain;
    }
 
+video { margin-top: 150px;}
+.parallax { display: none;}
 
+.hero { min-height:0;}
 }
 
 body { 
   background-color: #ffffff; 
   font-family: 'Amatic SC', cursive;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
-.hero { min-height: 90vh;
+.hero { 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
